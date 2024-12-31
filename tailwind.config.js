@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily:{
-      'serif':['"Roboto Condensed"']
+      'serif':['"Roboto Condensed"'],
+      'serif2':['Arima']
     }
   },
   plugins: [require('tailwindcss-motion')], 
