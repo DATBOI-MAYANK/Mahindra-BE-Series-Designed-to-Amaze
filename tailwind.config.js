@@ -10,6 +10,6 @@ export default {
       'serif':['"Roboto Condensed"']
     }
   },
-  plugins: [],
+  plugins: [require('tailwindcss-motion')], 
 }
 
