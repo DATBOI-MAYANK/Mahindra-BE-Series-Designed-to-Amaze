@@ -24,12 +24,12 @@ function App() {
   return (
     <>
       <div className="w-full absolute inset-0">
-        <div className="absolute top-96 left-48 text-white motion-translate-x-in-[0%] motion-translate-y-in-[90%] motion-blur-in-[20px] motion-duration-[0.99s]/blur">
+        <div className="absolute top-96 left-48 text-white motion-scale-in-[0.5] motion-translate-x-in-[2%] motion-translate-y-in-[86%] motion-blur-in-[20px] motion-ease-spring-bouncy">
           <h1 className="text-8xl font-serif2">Mahindra</h1>
           <h2 className="text-5xl font-serif">BE-6</h2>
         </div>
         <div className="absolute text-white left-3/4 top-3/4 z-20">
-          <button className="group bg-white text-black font-serif text-2xl px-6 py-3 rounded-lg flex items-center space-x-2 transform transition-transform duration-300 hover:scale-110 hover:motion-preset-wobble motion-duration-2000 ">
+          <button className="group bg-white text-black font-serif text-2xl px-6 py-3 rounded-lg flex items-center space-x-2  motion-scale-in-[0.5] motion-translate-x-in-[2%] motion-translate-y-in-[86%] motion-blur-in-[20px] motion-ease-spring-bouncy transform transition-transform duration-500 ease-in-out hover:scale-110  ">
             <NavLink to="/discover">Discover More</NavLink>
             <img src={ArrowRight} alt=""/>
           </button>
