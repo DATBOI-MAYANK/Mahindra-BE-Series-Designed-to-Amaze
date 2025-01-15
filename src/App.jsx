@@ -29,7 +29,7 @@ function App() {
           <h2 className="text-5xl font-serif">BE-6</h2>
         </div>
         <div className="absolute text-white left-3/4 top-3/4 z-20">
-          <button className="group bg-white text-black font-serif text-2xl px-6 py-3 rounded-lg flex items-center space-x-2  motion-scale-in-[0.5] motion-translate-x-in-[2%] motion-translate-y-in-[86%] motion-blur-in-[20px] motion-ease-spring-bouncy transform transition-transform duration-500 ease-in-out hover:scale-110  ">
+          <button className="group bg-white text-black font-serif text-2xl px-6 py-3 rounded-lg flex items-center space-x-2  motion-scale-in-[0.5] motion-translate-x-in-[2%] motion-translate-y-in-[86%] motion-blur-in-[20px] motion-ease-spring-bouncy transform transition-transform duration-500 ease-in-out hover:scale-110 bg-gradient-to-r hover:from-gray-800  ">
             <NavLink to="/discover">Discover More</NavLink>
             <img src={ArrowRight} alt=""/>
           </button>
