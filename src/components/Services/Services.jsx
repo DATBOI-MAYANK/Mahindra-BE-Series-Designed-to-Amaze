@@ -15,7 +15,7 @@ function Services() {
         class="Title"
         className=" flex flex-col items-center justify-center h-60 motion-scale-in-[0.5] motion-translate-x-in-[0%] motion-translate-y-in-[100%] motion-blur-in-[20px] motion-linear"
       >
-        <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-gradient-to-tl from-[#191970] to-gray-800 ">Our Car Services</h1>
+        <h1 className="font-bold text-4xl text-transparent bg-clip-text bg-[#272640]">Our Car Services</h1>
         <p className="font-semibold text-xl text-[#ffffff]">
           Professional care for your vehicle, ensuring peak performance and
           longevity.
@@ -81,12 +81,12 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center pt-24 text-transparent bg-clip-text bg-gradient-to-l from-[#1B3A4B] to-[#3E1F47]" >
+      <div className="flex flex-col items-center pt-24 text-transparent bg-clip-text bg-[#006466]" >
         <h1 className="font-bold text-4xl">Need Our Services ?</h1>
         <p className="font-semibold text-xl" >Our team of expert mechanics is ready to help you with any car service you need.</p>
         
       </div>
-      <div className="flex justify-center items-center pt-5 hover:cursor-pointer text-[#7275b8] " >
+      <div className="flex justify-center items-center pt-5 hover:cursor-pointer text-[#0B525B] " >
         <PhoneCall className="mr-4 h-8 w-8" />
         <p className="font-semibold text-xl" >Call us at +91 1234567890</p>
       </div>

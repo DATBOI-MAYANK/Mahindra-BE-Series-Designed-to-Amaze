@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="bg-gradient-to-tr from-[#1B3A4B] to-[#006466] h-full w-full p-4 font-serif">
       <div className="flex flex-col items-center motion-scale-in-[0.5] motion-translate-x-in-[0%] motion-translate-y-in-[100%] motion-blur-in-[20px] motion-linear ">
-        <h1 className="text-4xl text-white font-bold mt-20">
+        <h1 className="text-4xl text-[#1B3A4B] font-bold mt-20">
           About Our Auto Service
         </h1>
         <p className="text-xl text-white font-semibold mt-2 font-serif2">
@@ -14,14 +14,14 @@ function About() {
       </div>
 
       <div>
-        <div className="grid grid-cols-3 mt-2 md:grid-col-2 lg:grid-col-3 gap-4 motion-blur-in-[20px]">
+        <div className="grid grid-cols-3 my-7 md:grid-col-2 lg:grid-col-3 gap-4 motion-blur-in-[20px]">
           <div className="bg-white h-52 w-96 rounded-lg mx-4 hover:cursor-pointer">
             <div className="flex flex-col items-center justify-center h-full">
               <div className="flex">
                 <Award className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Quality Service</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg font-serif2">
+              <p className="font-semibold pl-2 mt-4 text-lg ">
                 We use only high-quality parts and advanced diagnostic tools.
               </p>
             </div>
@@ -32,7 +32,7 @@ function About() {
                 <Users className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Expert Mechanics</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg font-serif2">
+              <p className="font-semibold pl-2 mt-4 text-lg ">
                 Our team consists of certified professionals with years of
                 experience.
               </p>
@@ -44,7 +44,7 @@ function About() {
                 <Clock className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Quick Turnaround</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg font-serif2">
+              <p className="font-semibold pl-2 mt-4 text-lg ">
                 We value your time and strive for efficient service delivery.
               </p>
             </div>
@@ -55,7 +55,7 @@ function About() {
                 <ThumbsUp className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Customer Satisfaction</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg font-serif2">
+              <p className="font-semibold pl-2 mt-4 text-lg ">
                 Our top priority is ensuring you're happy with our service.
               </p>
             </div>
