@@ -8,7 +8,7 @@ function About() {
         <h1 className="text-4xl text-[#1B3A4B] font-bold mt-20">
           About Our Auto Service
         </h1>
-        <p className="text-xl text-white font-semibold mt-2 font-serif2">
+        <p className="text-xl text-white font-semibold mt-2 font-machina">
           Dedicated to keeping your vehicle in top condition since 1995.
         </p>
       </div>
@@ -21,7 +21,7 @@ function About() {
                 <Award className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Quality Service</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg ">
+              <p className="font-semibold pl-2 mt-4 font-machina text-lg ">
                 We use only high-quality parts and advanced diagnostic tools.
               </p>
             </div>
@@ -32,7 +32,7 @@ function About() {
                 <Users className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Expert Mechanics</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg ">
+              <p className="font-semibold pl-2 font-machina mt-4 text-lg ">
                 Our team consists of certified professionals with years of
                 experience.
               </p>
@@ -44,7 +44,7 @@ function About() {
                 <Clock className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Quick Turnaround</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg ">
+              <p className="font-semibold pl-2 font-machina mt-4 text-lg ">
                 We value your time and strive for efficient service delivery.
               </p>
             </div>
@@ -55,7 +55,7 @@ function About() {
                 <ThumbsUp className="mr-2 h-10 w-10" />
                 <h1 className="font-bold text-3xl">Customer Satisfaction</h1>
               </div>
-              <p className="font-semibold pl-2 mt-4 text-lg ">
+              <p className="font-semibold pl-2 font-machina mt-4 text-lg ">
                 Our top priority is ensuring you're happy with our service.
               </p>
             </div>
@@ -64,7 +64,7 @@ function About() {
         <div className="mx-4 mt-4">
           <div className="bg-white h-auto w-auto rounded-lg p-4 mt-2" >
             <h1 className="text-4xl text-black font-bold mt-4">Our Story</h1>
-            <p className="text-lg text-black font-semibold mt-2">
+            <p className="text-lg text-black font-semibold font-machina mt-2">
               Mahindra & Mahindra was founded in 1945 as Mahindra & Mohammed by
               J.C. Mahindra, K.C. Mahindra, and Malik Ghulam Muhammad in
               Ludhiana to trade steel. After Partition in 1947, Muhammad moved
@@ -87,7 +87,7 @@ function About() {
           </div>
           <div className="bg-white h-auto w-auto rounded-lg p-4 mt-4" >
             <h1 className="text-4xl text-black font-bold mt-5">Our Mission</h1>
-            <p className="text-lg text-balck font-semibold mt-2">
+            <p className="text-lg text-balck font-semibold font-machina mt-2">
               Tech Mahindra, part of the Mahindra Group, is driven by a mission
               to empower enterprises, employees, and society to rise toward a
               more equitable world, foster future readiness, and create lasting

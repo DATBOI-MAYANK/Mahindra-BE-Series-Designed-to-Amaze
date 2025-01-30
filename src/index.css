@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: machina;
+    src: url(./assets/fonts/NeueMachina-Regular.otf);
+}
