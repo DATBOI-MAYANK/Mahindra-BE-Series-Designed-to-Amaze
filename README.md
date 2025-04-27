@@ -39,15 +39,15 @@ Routing to navigate different sections/pages
 ![Screenshot from 2025-04-27 16-12-26](https://github.com/user-attachments/assets/89565330-eabb-43f5-bcc5-a7a44317ba79)
 
 ## 🚀 How to Run Locally
-Clone the repo:
+### Clone the repo:
 git clone https://github.com/DATBOI-MAYANK/Mahindra-BE-Series-Designed-to-Amaze.git
 cd Mahindra-BE-Series-Designed-to-Amaze
 
-Install dependencies:
+### Install dependencies:
 npm install
 
 
-Start the server:
+### Start the server:
 npm run dev
 
 Open http://localhost:3000 to view it live.
