@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { NavLink } from "react-router-dom";
-import VideoBg from "../src/video/Mahindra.mp4";
-import ArrowRight from "../src/assets/right-arrow.svg";
+import VideoBg from "./video/Mahindra.mp4";
+import ArrowRight from "./assets/right-arrow.svg";
 
 function App() {
   const videoRef = useRef(null);
