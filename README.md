@@ -41,6 +41,7 @@ Routing to navigate different sections/pages
 ## 🚀 How to Run Locally
 ### Clone the repo:
 git clone https://github.com/DATBOI-MAYANK/Mahindra-BE-Series-Designed-to-Amaze.git
+
 cd Mahindra-BE-Series-Designed-to-Amaze
 
 ### Install dependencies:
@@ -51,6 +52,9 @@ npm install
 npm run dev
 
 Open http://localhost:3000 to view it live.
+
+## Live Link:
+https://mahindra-be-series-designed-to-amaze.vercel.app/
 
 ## 🤔 Why This Project?
 I wanted to challenge myself by:
